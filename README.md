@@ -42,7 +42,7 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
 
 ### Print
-  <img src="https://github.com/DocCaio/Wild-Life/blob/main/public/screenShot.png" alt="Minha Figura">
+  <img src="" alt="Minha Figura">
 
 
 
