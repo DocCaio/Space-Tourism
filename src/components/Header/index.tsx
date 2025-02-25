@@ -1,14 +1,14 @@
-import Link from "next/link";
-import Image from "next/image"; // Importing Image from next/image
+
+import { Link } from 'react-router';
 import Logo from '../../assets/shared/logo.svg';
 
 export default function Header() {
     return (
         <header>
             <div>
-                <Link href="/">
+                <Link to="/">
                     <a>
-                        <Image
+                        <img
                             src={Logo}
                             width={500}
                             height={500}

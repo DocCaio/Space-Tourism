@@ -8,10 +8,10 @@ export default function Home() {
     <Router>
       <Header>
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/destination' element={<DestinationPage />} />
-          <Route path='/crew' element={<CrewPage />} />
-          <Route path='/technology' element={<TechnologyPage />} />
+          <Route path='/' element={'/'} />
+          <Route path='/destination' element={'/'} />
+          <Route path='/crew' element={'/'} />
+          <Route path='/technology' element={'/'} />
         </Routes>
       </Header>
     </Router>
