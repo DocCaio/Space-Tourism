@@ -7,15 +7,12 @@ export default function Header() {
         <header>
             <div>
                 <Link to="/">
-                    <a>
-                        <img
-                            src={Logo}
-                            width={500}
-                            height={500}
-                            alt="Space Tourism"
-                            title="Space Tourism "
-                        />
-                    </a>
+                    <img
+                        src={Logo}
+                        alt="Space Tourism"
+                        title="Space Tourism "
+                    />
+
                 </Link>
             </div>
         </header>
