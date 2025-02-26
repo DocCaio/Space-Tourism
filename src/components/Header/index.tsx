@@ -7,6 +7,7 @@ export default function Header() {
         <header>
             <div>
                 <Link to="/">
+                 
                     <img
                         src={Logo}
                         alt="Space Tourism"
