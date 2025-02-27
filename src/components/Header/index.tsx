@@ -8,7 +8,7 @@ export default function Header() {
         <header className='header'>
             <div>
                 <Link to="/">
-                 
+
                     <img
                         src={Logo}
                         alt="Space Tourism"
@@ -17,6 +17,24 @@ export default function Header() {
 
                 </Link>
             </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <Link to={'/'}><span>00</span>Home</Link>
+                    </li>
+                    <li>
+                        <Link to={'/destination'}><span>01</span>Destination</Link>
+                    </li>
+                    <li>
+                        <Link to={'/crew'}><span>02</span>Crew</Link>
+                    </li>
+                    <li>
+                        <Link to={'/technology'}><span>03</span>Technology</Link>
+                    </li>
+
+                </ul>
+            </nav>
         </header>
     );
 }

@@ -7,8 +7,8 @@ export default function home() {
             <section className="home px-5">
                 
                 <div className="overlay">
-                <article>
-                    <h1 className="text-2xl text-gray-400">So, you want to travel to
+                <article className="lg:w-1/2 lg:mr-20">
+                    <h1 className="text-2xl text-gray-400">So, you want to travel to{""}
                         <span className="block text-4xl lg:text-6xl text-white mt-5 mb-10">space</span>
                     </h1>
                     <p className="text-gray-400">
