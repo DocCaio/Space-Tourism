@@ -1,10 +1,11 @@
 
 import { Link } from 'react-router';
+import './header.css'
 import Logo from '../../assets/shared/logo.svg';
 
 export default function Header() {
     return (
-        <header>
+        <header className='header'>
             <div>
                 <Link to="/">
                  
