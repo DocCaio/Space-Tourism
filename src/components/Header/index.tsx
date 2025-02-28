@@ -2,10 +2,17 @@
 import { Link } from 'react-router';
 import './header.css'
 import Logo from '../../assets/shared/logo.svg';
+import { CgMenuLeft } from 'react-icons/cg';
+
+const handleClick = () => {
+    const navbar = document.querySelector('.navbar')
+
+    navbar?.classList.toggle('open')
+}
 
 export default function Header() {
     return (
-        <header className='header'>
+        <header className='header  flex items-center justify-between w-full'>
             <div>
                 <Link to="/">
 
@@ -18,7 +25,7 @@ export default function Header() {
                 </Link>
             </div>
 
-            <nav className='navbar'>
+            <nav className='navbar open'>
                 <ul>
                     <li>
                         <Link to={'/'}>
@@ -43,6 +50,12 @@ export default function Header() {
 
                 </ul>
             </nav>
+            <div>
+                <button onClick={handleClick}>
+                    <CgMenuLeft className='text-white text-4xl'/>
+                </button>
+
+            </div>
         </header>
     );
 }
