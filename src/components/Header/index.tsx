@@ -5,10 +5,20 @@ import Logo from '../../assets/shared/logo.svg';
 import { CgMenuLeft } from 'react-icons/cg';
 
 const handleClick = () => {
-    const navbar = document.querySelector('.navbar')
+    const navbar = document.querySelector('.navbar');
+    const listItems = document.querySelectorAll('.list-item'); // Corrected class name
 
-    navbar?.classList.toggle('open')
+   
+    navbar?.classList.toggle("open");
+
+   
+    listItems.forEach((item) => 
+        item.addEventListener('click', () => {
+            navbar?.classList.remove('open');
+        })
+    );
 }
+
 
 export default function Header() {
     return (
@@ -27,22 +37,22 @@ export default function Header() {
 
             <nav className='navbar open'>
                 <ul>
-                    <li>
+                    <li className='list-item'>
                         <Link to={'/'}>
                             <span>00</span>Home
                         </Link>
                     </li>
-                    <li>
+                    <li className='list-item'>
                         <Link to={'/destination'}>
                             <span>01</span>Destination{""}
                         </Link>
                     </li>
-                    <li>
+                    <li className='list-item'>
                         <Link to={'/crew'}>
                             <span>02</span>Crew
                         </Link>
                     </li>
-                    <li>
+                    <li className='list-item'>
                         <Link to={'/technology'}>
                             <span>03</span>Technology
                         </Link>
