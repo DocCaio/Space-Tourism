@@ -22,7 +22,8 @@ const handleClick = () => {
 
 export default function Header() {
     return (
-        <header className='header  flex items-center justify-between w-full'>
+        <header className='header  flex items-center 
+        justify-between w-full lg:flex-row'>
             <div>
                 <Link to="/">
 
@@ -60,7 +61,7 @@ export default function Header() {
 
                 </ul>
             </nav>
-            <div>
+            <div className='lg:hidden'>
                 <button onClick={handleClick}>
                     <CgMenuLeft className='text-white text-4xl'/>
                 </button>
