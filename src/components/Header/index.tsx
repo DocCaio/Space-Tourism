@@ -36,26 +36,26 @@ export default function Header() {
                 </Link>
             </div>
 
-            <nav className='navbar open'>
+            <nav className='navbar'>
                 <ul>
                     <li className='list-item'>
-                        <Link to={'/'}>
-                            <span>00</span>Home
+                        <Link to={'/'} className='lg:text-white lg:flex lg:itens-center'>
+                            <span className='lg:text-4xl lg:font-bold'>00</span>Home
                         </Link>
                     </li>
                     <li className='list-item'>
-                        <Link to={'/destination'}>
-                            <span>01</span>Destination{""}
+                        <Link to={'/destination'} className='lg:text-white lg:flex lg:itens-center'>
+                            <span className='lg:text-4xl lg:font-bold mr-2'>01</span>Destination{""}
                         </Link>
                     </li>
                     <li className='list-item'>
-                        <Link to={'/crew'}>
-                            <span>02</span>Crew
+                        <Link to={'/crew'} className='lg:text-white lg:flex lg:itens-center'>
+                            <span className='lg:text-4xl lg:font-bold mr-2'>02</span>Crew
                         </Link>
                     </li>
                     <li className='list-item'>
-                        <Link to={'/technology'}>
-                            <span>03</span>Technology
+                        <Link to={'/technology'} className='lg:text-white lg:flex lg:itens-center'>
+                            <span className='lg:text-4xl lg:font-bold mr-2'>03</span>Technology
                         </Link>
                     </li>
 
