@@ -40,7 +40,7 @@ export default function Header() {
                 <ul>
                     <li className='list-item'>
                         <Link to={'/'} className='lg:text-white lg:flex lg:itens-center'>
-                            <span className='lg:text-4xl lg:font-bold'>00</span>Home
+                            <span className='lg:text-4xl lg:font-bold mr-2'>00</span>Home
                         </Link>
                     </li>
                     <li className='list-item'>

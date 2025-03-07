@@ -92,6 +92,7 @@ p {
     left: -10px;
     width: auto;
     transform:  translateX(-10px);
+    backdrop-filter: blur(4px);
 
   }
 
