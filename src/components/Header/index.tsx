@@ -1,6 +1,5 @@
 
 import { Link } from 'react-router';
-import './header.css'
 import Logo from '../../assets/shared/logo.svg';
 import { CgMenuLeft } from 'react-icons/cg';
 

@@ -23,10 +23,19 @@ export default function Destination() {
           <h2>{name}</h2>
           <p>{destinations}</p>
           <ul>
-            <li>{distance}</li>
-            <li>{travel}</li>
+            <li>Avg. Distance{distance}</li>
+            <li>Est. Travel Time{travel}</li>
           </ul>
         </article>
+        {planets.map((item ,index) => (
+          <button key={index} onClick={() => 
+            setValue(index)} className="uppercase
+            text-white text-2xl pb-2 border-b">
+            {item.name}
+
+
+          </button>
+        ))}
 
       </div>
 
