@@ -11,7 +11,7 @@ export default function Destination() {
   planets[value]
   return (
     <>
-    <section>
+    <section className="home destination px-5">
       <h1>01 Pick your destination</h1>
 
       <div>
