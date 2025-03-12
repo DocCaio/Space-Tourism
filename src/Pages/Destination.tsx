@@ -14,28 +14,34 @@ export default function Destination() {
     <section className="home destination px-5">
       <h1>01 Pick your destination</h1>
 
-      <div>
+      <div className="pt-20">
         <article>
-          <img src={images.png} alt={name} title={name}/>
+          <img src={images.png} 
+          alt={name} 
+          title={name}
+          className="block mx-auto w-3/4 mb-10"
+          />
         </article>
 
-        <article>
-          <h2>{name}</h2>
-          <p>{destinations}</p>
+        <article className="text-center">
+        {planets.map((item ,index) => (
+          <button key={index} onClick={() => 
+            setValue(index)} className={`uppercase
+            text-white text-2xl pb-2 border-b mx-2`}>
+            {item.name}
+
+          </button>
+        ))}
+        
+
+          <h2 className="text-5xl font-bold mt-10 mb-5 uppercase tracking-widest">{name}</h2>
+          <p className="text-gray-400">{destinations}</p>
           <ul>
             <li>Avg. Distance{distance}</li>
             <li>Est. Travel Time{travel}</li>
           </ul>
-        </article>
-        {planets.map((item ,index) => (
-          <button key={index} onClick={() => 
-            setValue(index)} className="uppercase
-            text-white text-2xl pb-2 border-b">
-            {item.name}
-
-
-          </button>
-        ))}
+        </article>   
+      
 
       </div>
 
