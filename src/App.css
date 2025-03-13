@@ -74,6 +74,12 @@ p {
 }
 
 
+.crew {
+  background: url('./starter-code/assets/crew/background-crew-mobile.jpg') no-repeat center/cover;
+
+}
+
+
 
 
 @media (min-width: 768px) {
@@ -83,6 +89,11 @@ p {
 
   .destination {
     background: url("./starter-code/assets/destination/background-destination-tablet.jpg") no-repeat center/cover;
+  }
+
+  .crew {
+    background: url('./starter-code/assets/crew/background-crew-tablet.jpg') no-repeat center/cover;
+
   }
   
   
@@ -128,6 +139,12 @@ p {
   .destination {
     background: url("./starter-code/assets/destination/background-destination-desktop.jpg") no-repeat center/cover;
   }
+
+  .crew {
+    background: url('./starter-code/assets/crew/background-crew-desktop.jpg') no-repeat center/cover;
+  
+  }
+  
   
 
 }
