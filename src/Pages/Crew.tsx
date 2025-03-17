@@ -20,6 +20,7 @@ export default function Destination() {
       
 
         <article className="text-center lg: text-left">
+          <h4 className="uppercase text-gray-400 mb-5 text-2xl">{role}</h4>
     
 
           <h2 className="text-5xl font-bold mt-10 mb-5 uppercase tracking-widest">{name}</h2>

@@ -12,7 +12,7 @@ export default function Destination() {
   cards[value]
   return (
     <>
-    <section className="home crew px-5">
+    <section className="home technology px-5">
       <h1 className="pt-20  lg:pt-40 lg:max-w-7xl lg:mx-auto text-white text-4xl uppercase mb-10">03 Space Launch 101</h1>
 
       <div className="flex items-center justify-center flex-col-reverse  md:grid grid-cols-2 gap-5 
