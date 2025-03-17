@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { destinations } from "../starter-code/data.json";
 
+type DestinationProps = {
+  planets: any;
+  destinations: any;
 
+}
 
 export default function Destination() {
   const [planets] = useState(destinations)

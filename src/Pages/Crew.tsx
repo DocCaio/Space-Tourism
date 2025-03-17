@@ -28,7 +28,7 @@ export default function Destination() {
           <button key={index} onClick={() => 
             setValue(index)} className={`uppercase
             text-white text-2xl rounded-full  h-5 pb-2 mx-2 
-            ${index === value && "bg-white rounded-full"}`}>
+            ${index === value && "bg-white"}`}>
            <BsCircle className=" h-5 w-5" />
 
           </button>
@@ -40,7 +40,7 @@ export default function Destination() {
           <img src={images.png} 
           alt={name} 
           title={name}
-          className="block mx-auto w-3/4 mb-10"
+          className="block mx-auto mb-10"
           />
         </article> 
       
