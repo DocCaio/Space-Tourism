@@ -41,7 +41,7 @@ export default function Destination() {
           <img src={images.png} 
           alt={name} 
           title={name}
-          className="block mx-auto mb-10"
+          className="block mx-auto w-3/4 mb-10"
           />
         </article> 
       

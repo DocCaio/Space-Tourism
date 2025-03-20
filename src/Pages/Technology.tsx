@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { technology } from "../starter-code/data.json";
-import { BsCircle } from "react-icons/bs";
+
 
 
 
@@ -34,7 +34,7 @@ export default function Destination() {
             ))}
           </div>
 
-            <div className="ml-10">
+            <div className="lg:ml-10">
               <h4 className="uppercase text-gray-400 mb-5 text-2xl">The  termonology...</h4>
 
               <h2 className="text-5xl font-bold mt-10 my-5 uppercase tracking-widest">{name}</h2>
