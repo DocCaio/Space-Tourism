@@ -25,15 +25,17 @@ export default function Destination() {
 
           <h2 className="text-5xl font-bold mt-10 mb-5 uppercase tracking-widest">{name}</h2>
           <p className="text-gray-400 mb-10">{bio}</p>  
-          {people.map((item ,index) => (
-          <button key={index} onClick={() => 
-            setValue(index)} className={`uppercase
-            text-white text-2xl rounded-full  h-5 pb-2 mx-2 
-            ${index === value && "bg-white"}`}>
-           <BsCircle className=" h-5 w-5" />
+          {people.map((_, index) => (
+  <button
+    key={index}
+    onClick={() => setValue(index)}
+    className={`uppercase text-white text-2xl rounded-full h-5 pb-2 mx-2 
+      ${index === value && "bg-white"}`}
+  >
+    <BsCircle className="h-5 w-5" />
+  </button>
+))}
 
-          </button>
-        ))}
               
         </article>  
 
