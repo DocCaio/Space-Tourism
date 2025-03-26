@@ -39,8 +39,8 @@
 
 - `functionality `:
 - Responsive.
-- Buy tickets
-- Swiper slides
+- Browse multiple pages
+- Click on the buttons for interaction
   
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
 
@@ -52,7 +52,7 @@
   This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
   ```mk
-npm i swiper
-npm install react-redux
+npm install tailwindcss @tailwindcss/vite
+npm install react-icons --save
 
 ```
